@@ -1,0 +1,50 @@
+https://www.thepythoncode.com/article/send-receive-files-using-sockets-python
+options:
+
+    Client’s request to get the list of file
+
+    Client’s request to download a file
+
+    Server’s response to get list request
+
+    Server’s First response to download a file
+    request
+
+    Server’s other responses to download a file
+    request
+
+
+    hex communication
+
+    # convert from bytes to hex
+
+    some_bytes = b"\xab"
+    hexadecimal_string = some_bytes.hex()
+    print(hexadecimal_string)
+
+
+    ====================
+
+    hex_string = "0x616263"[2:]
+    bytes_object = bytes.fromhex(hex_string)
+
+
+    hex to decimal
+
+    int(hex_string,16)
+
+    =========================
+
+    packet sent by ckient = ["code"," "]
+
+
+    ////////////////////////////////////////
+
+    SERVER_CODES = ["0x0010","0x0011","0x0012"]
+
+
+    /////////////////////////////////////////////
+
+    Client:
+     
+    REQUEST = ["0x0000","0x0001"]
